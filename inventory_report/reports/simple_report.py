@@ -3,8 +3,8 @@ from collections import Counter
 
 
 class SimpleReport:
-    # def __init__(self):
-    def generate(products_list):
+    @classmethod
+    def generate(cls, products_list):
         # data_de_fabricacao_antiga = products_list[0].data_de_fabricacao
         data_fab_list = []
         data_val_list = []
